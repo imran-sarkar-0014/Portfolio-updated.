@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- todo: remove (.) dot spacif path from href  when deployment start-->
+  <!--  -->
+  <link rel="icon" href="./assests/img/favicon.png">
+  <link rel="stylesheet" href="./styles/output.css">
+  <script src="./js/tailwind-elements/index.min.js"></script>
+  <!--  -->
+  <!-- todo: remove (.) dot spacif path from href  when deployment start-->
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+  <title>Imran Sarkar-MERN Stack Developer</title>
+</head>
+
+<body
+  class="h-screen w-screen dark:bg-slate-700 overflow-x-hidden dark:text-gray-50 text-center font-display transition-colors duration-700">
+
+
+  <div class="max-w-[1200px] overflow-x-hidden w-full  mx-auto ">
+
+    <header class="flex flex-col mid:flex-row mid:justify-between mid:h-[60px] h-[100px]">
+
+      <strong class="flex items-center text-4xl">Imran <span class="text-gray-400">Sarkar</span> </strong>
+
+      <div class="flex flex-1 items-center justify-around">
+        <!-- Links of content -->
+        <ul class="flex items-center space-x-2 text-xs mid:text-sm links">
+
+          <li>
+            <a href="#about" class="active">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+
+        <!-- Links of social medias -->
+
+
+
+
+        <ul class="flex items-center space-x-1 text-xs mid:text-sm links">
+          <li>
+            <a href="https://www.facebook.com/imransarkar.sabbir.9/" target="_blank">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/imran-sarkar-9019b1223/" target="_blank">LinkedIn</a>
+          </li>
+
+        </ul>
+
+
+        <div class="flex justify-center">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input appearance-none w-9 -ml-10 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm"
+              type="checkbox" role="switch" id="toggleMode" checked>
+            <label class="form-check-label inline-block" for="toggleMode">
+              Dark
+            </label>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+
+
+
+    <!-- About -->
+
+    <section id='about'
+      class="h-[90vh] flex flex-col-reverse mid:flex-row justify-around items-center transition-all duration-300">
+
+
+      <div class="">
+
+        <!--  -->
+        <div class="ml-8">
+          <h4 class="py-1 px-3 bg-blue-800 text-white dark:bg-green-800 w-fit">FULL STACK DEVELOPER</h4>
+          <p class="text-sm text-left">LEARNING NEVER ENDS.</p>
+        </div>
+        <!--  -->
+
+
+        <div class="text-4xl py-8">
+          <p id='typing' class="w-[436px]"></p>
+          <p id='typing2'></p>
+        </div>
+
+
+      </div>
+
+
+      <div class="flex flex-col">
+
+        <div class="flex flex-wrap items-center justify-center">
+
+
+          <div class="sm:flex">
+
+            <div data-aos="fade-right"
+              class="h-32 w-32 m-2 grid place-items-center bg-white rounded-full shadow-md shadow-gray-600 dark:shadow-indigo-600 overflow-hidden ">
+              <img class="w-full h-full object-cover" src="./assests/img/mongodb.jpg" alt="reactjs">
+            </div>
+
+            <div data-aos="fade-up"
+              class="h-32 w-32 m-2  grid place-items-center bg-white rounded-full shadow-md shadow-gray-600 dark:shadow-indigo-600 overflow-hidden ">
+              <img class="w-full  object-cover" src="./assests/img/express.png" alt="reactjs">
+            </div>
+          </div>
+
+          <div class="sm:flex">
+
+            <div data-aos="fade-down"
+              class="h-32 w-32 m-2  grid place-items-center rounded-full shadow-inner shadow-gray-600 dark:bg-gray-600 pink overflow-hidden">
+              <img class="w-full object-cover" src="./assests/img/node.png" alt="reactjs">
+            </div>
+
+            <div data-aos="fade-left"
+              class="h-32 w-32 m-2 grid place-items-center rounded-full shadow-inner shadow-gray-600 dark:shadow-indigo-600 overflow-hidden ">
+              <img class="w-full object-cover" src="./assests/img/react.png" alt="reactjs">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 
+        <div class="">
+
+          hello other programming languages
+
+        </div> -->
+
+      </div>
+
+
+
+    </section>
+    <!-- end About -->
+
+    <section id="services" class="">
+
+      <h3 class="text-left pl-16 text-3xl">My Service</h3>
+      <div class="w-[90%] mid:h-[3px] h-[2px] mx-auto bg-gray-900 dark:bg-gray-200 rounded-l-full rounded-r-full"></div>
+
+
+      <div class="flex flex-col px-4 py-8">
+
+        <!-- Card for frontend -->
+
+        <div data-aos="fade-right" class="border rounded-lg flex my-4">
+          <h3 class="text-3xl font-semibold m-1 border rounded-md p-6 grid place-items-center">Front End</h3>
+
+          <ol class="text-left">
+            <li class="info-item">1. Ability to Design Responsive Web from
+              scrach.</li>
+            <li class="info-item">2. Ability to convert Photoshop Design into
+              functional program.
+            </li>
+            <li class="info-item">3. Ability to integrate front end with backend Apis.</li>
+          </ol>
+
+        </div>
+
+        <!-- Card -->
+
+
+        <!-- Card for backend -->
+
+        <div data-aos="fade-left" class="border rounded-lg flex my-4">
+          <h3 class="text-3xl font-semibold m-1 border rounded-md p-8 grid place-items-center">Back End</h3>
+
+          <ol class="text-left">
+            <li class="info-item">1. Creating web and back end server from scrach.</li>
+            <li class="info-item">2. Creating backed apis.</li>
+            <li class="info-item">3. Deploying web application to the server.</li>
+          </ol>
+
+        </div>
+
+        <!-- Card -->
+
+
+
+
+        <h3 class="text-xl mt-10 tracking-wider">Projects</h3>
+        <div class="w-[90%] mid:h-[3px] h-[2px] mx-auto bg-gray-900 dark:bg-gray-200 rounded-l-full rounded-r-full">
+        </div>
+
+
+        <div class="mid:mt-12 mt-10">
+
+
+          <!-- Project cards -->
+          <div data-aos="fade-up" class="grid mid:grid-cols-3 border rounded-lg overflow-hidden my-4">
+
+            <div class="w-full rounded-lg overflow-hidden mx-auto">
+              <img class="w-full h-full object-cover" src="./assests/proj/schoolmanagement.png" alt="">
+            </div>
+
+            <div class="px-2 border-l-2">
+              <h3 class="mid:text-left text-xl py-2 my-2 border-b">School Management System</h3>
+              <p class="text-left">A fully functional web application of a school management system. By using the web
+                application, Admins,
+                Teachers and Students can share informations and instractions through online.</p>
+
+              <a class="block w-fit text-blue-500 border rounded-l-full rounded-r-full px-3 py-2  border-blue-500 my-2 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+                href="https://schoolmanagementsystem200.herokuapp.com/" target="_blank">View
+                Web</a>
+            </div>
+
+          </div>
+          <!-- end Project cards -->
+
+          <!-- Project cards -->
+          <div data-aos="fade-up" class="grid mid:grid-cols-3 border rounded-lg overflow-hidden my-4">
+
+            <div class=" rounded-lg overflow-hidden mx-auto">
+              <img class="w-full h-full object-cover" src="./assests/proj/e-commerce.png" alt="">
+            </div>
+
+            <div class="px-2 border-l-2">
+              <h3 class="mid:text-left text-xl py-2 my-2 border-b">Oniline Shoping front end template</h3>
+              <p class="text-left">A front end of online e-commerce site template. It is just designed for showing
+                products and its details. A user also can search product and get it's information.</p>
+
+              <a class="block w-fit text-blue-500 border rounded-l-full rounded-r-full px-3 py-2  border-blue-500 my-2 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+                href="https://quizzical-stonebraker-5f9fce.netlify.app/?fbclid=IwAR0hbNp6dWsuDRwgiapVLoPjAneRPptgAc2igLDFjV6mbk5SWb6TQ-yf4R4"
+                target="_blank">View
+                Web</a>
+            </div>
+
+          </div>
+          <!-- end Project cards -->
+
+
+          <!-- Project cards -->
+          <div data-aos="fade-up" class="grid mid:grid-cols-3 border rounded-lg overflow-hidden my-4">
+
+            <div class="w-full rounded-lg overflow-hidden mx-auto">
+              <img class="w-full h-full object-cover" src="./assests/proj/chatapp.png" alt="">
+            </div>
+
+            <div class="px-2 border-l-2">
+              <h3 class="mid:text-left text-xl py-2 my-2 border-b">Realtime Chat Application</h3>
+              <p class="text-left">This web is developed by using socket.io for realtime communication through
+                peoples.This web app can sync multiple devices at a time.</p>
+
+              <a class="block w-fit text-blue-500 border rounded-l-full rounded-r-full px-3 py-2  border-blue-500 my-2 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+                href="http://chatapp0012.herokuapp.com/" target="_blank">View Web</a>
+            </div>
+
+          </div>
+          <!-- end Project cards -->
+
+          <!-- Project cards -->
+          <div data-aos="fade-up" class="grid mid:grid-cols-3 border rounded-lg overflow-hidden my-4">
+
+            <div class="w-full rounded-lg overflow-hidden mx-auto">
+              <img class="w-full h-full object-cover" src="./assests/proj/notebook.png" alt="">
+            </div>
+
+            <div class="px-2 border-l-2">
+              <h3 class="mid:text-left text-xl py-2 my-2 border-b">Notebook</h3>
+              <p class="text-left">A online notebook that can help you to save your notes online and get access through
+                internet from multiple devices.</p>
+
+              <a class="block w-fit text-blue-500 border rounded-l-full rounded-r-full px-3 py-2  border-blue-500 my-2 hover:bg-blue-500 hover:text-white transition-colors duration-300"
+                href="http://notepaper123.herokuapp.com/" target="_blank">View Web</a>
+            </div>
+
+          </div>
+          <!-- end Project cards -->
+
+        </div>
+
+
+        <h3 class="text-xl mt-10 tracking-wider text-left">My Skills</h3>
+        <div class="w-[90%] mx-auto h-[2px] bg-gray-700 dark:bg-gray-100"></div>
+
+        <br>
+        <div class="my-8">
+          <h3 data-aos="fade-right" class="text-lg text-left">Programming Languages</h3>
+          <ul class="list-decimal text-left pl-16">
+            <li data-aos="fade-left">Javascript and Node js technology.</li>
+            <li data-aos="fade-left">Python Programming Language.</li>
+            <li data-aos="fade-left">Java Programming Language.</li>
+            <li data-aos="fade-left">C++ Programming Language.</li>
+            <li data-aos="fade-left">C Programming Language.</li>
+          </ul>
+        </div>
+
+        <div class="my-8">
+          <h3 data-aos="fade-right" class="text-lg text-left">Frameworks and Libraries</h3>
+          <ul class="list-decimal text-left pl-16">
+            <li data-aos="fade-left">React Js with redux, react router dom with v6, mui, mui icons, chart js and others.
+            </li>
+            <li data-aos="fade-left">Node Js with express js with socket.io and mongodb with mongoose.</li>
+            <li data-aos="fade-left">Css with bootstrap and tailwind css and it's plugins like tailwind-elements.</li>
+            <li data-aos="fade-left">python and it's framework django(not expert as it.).</li>
+          </ul>
+        </div>
+
+        <div class="my-8">
+          <h3 data-aos="fade-right" class="text-lg text-left">My tools and Extensions</h3>
+          <ul class="list-decimal text-left pl-16">
+            <li data-aos="fade-left" data-aos="fade-left">Google Chrome Developer tools and Firefox Dev tools.</li>
+            <li data-aos="fade-left" data-aos="fade-left">Postman and RestClient tools for api testing.</li>
+            <li data-aos="fade-left" data-aos="fade-left">React and redux dev tools as chrome extensions.</li>
+            <div data-aos="fade-left" data-aos="fade-left">
+              My favourite code editor is Visual Studio Code and I love to code in this editor because it gives me
+              a lot of extensions and tools to write code , test code and debug code in better way.
+            </div>
+          </ul>
+        </div>
+
+        <div class="my-8">
+          <h3 data-aos="fade-right" class="text-lg text-left">My Other skills</h3>
+          <ul class="list-decimal text-left pl-16">
+            <li data-aos="fade-left">Algorithms like sorting, searching , divide and conquer, dynamic programming,
+              greedy algorithm, bfs,
+              dfs etc...</li>
+
+            <li data-aos="fade-left">Data Structure like array, map, stack, queue, linked list, binary search tree,
+              binary heap etc...</li>
+            <li data-aos="fade-left">Acvance Data Structure like avl tree, red black tree, b-tree, segment tree etc...
+            </li>
+
+          </ul>
+        </div>
+
+
+      </div>
+
+  </div>
+
+  </section>
+
+  <section id="contact">
+
+    <h2 class="text-3xl">Contact With Me.</h2>
+
+    <div class="flex flex-col mid:flex-row items-center space-y-12 justify-around my-24">
+
+      <a data-aos="fade-right" href="https://www.facebook.com/imransarkar.sabbir.9/" target="_blank"
+        class="flex items-center group">
+        <div class="h-12 w-12 group-hover:scale-[.8] transition-all duration-300 rounded-full overflow-hidden">
+          <img class="h-full w-full object-cover" src="./assests/img/facebook.png" alt="">
+        </div>
+        <h5 class="text-lg px-2 group-hover:text-xl transition-all duration-300">Facebook</h5>
+      </a>
+
+
+      <a data-aos="fade-right" href="mailto:imransarkar.ac@gmail.com" class="flex items-center group">
+        <div class="h-12 w-12 group-hover:scale-[.8] transition-all duration-300 rounded-full overflow-hidden">
+          <img class="h-full w-full object-cover" src="./assests/img/email.png" alt="">
+        </div>
+        <h5 class="text-lg px-2 group-hover:text-xl transition-all duration-300">Email</h5>
+      </a>
+
+
+      <a data-aos="fade-right" href="tel:+8801856502441" class="flex items-center group">
+        <div
+          class="h-12 w-12 group-hover:scale-[.8] transition-all duration-300 rounded-full outline-1 outline-orange-300 shadow-inner  shadow-orange-400 overflow-hidden">
+          <img class="h-full w-full object-cover" src="./assests/img/phone.jpg" alt="">
+        </div>
+        <h5 class="text-lg px-2 group-hover:text-xl transition-all duration-300">Phone</h5>
+      </a>
+
+
+    </div>
+
+    <div class="h-[400px]"></div>
+
+  </section>
+
+
+
+  </div>
+
+  <script>
+    AOS.init({ duration: 2000 });
+  </script>
+
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>

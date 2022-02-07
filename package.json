@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false YARN_PRODUCTION=false npm run css:build",
+    "css:build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
+    "css:dev": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "author": "Imran Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "tw-elements": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.13"
+  }
+}
